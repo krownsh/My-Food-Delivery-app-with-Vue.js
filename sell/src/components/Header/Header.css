@@ -1,0 +1,98 @@
+.header{
+    height:160px;
+    padding-top:40px;
+    /* 留給手機的上面消息欄位 */
+}
+.header .top-wrapper {
+    position: relative;
+}
+
+.header .top-wrapper .back-wrapper {
+    width: 50px;
+    height: 31px;
+    /*background: red;*/
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    line-height: 31px;
+}
+
+.header .top-wrapper .back-wrapper span {
+    display: inline-block;
+    color: white;
+}
+/* span元素需要改為inline-block才可以使用到text-align跟line-height樣式
+是因為iconmoon這個圖標庫他就是用span */
+
+.header .top-wrapper .search-wrapper {
+    width: 100%;
+    height: 31px;
+    /*background: purple;*/
+    padding: 0 104px 0 50px;
+    /* 透過padding來扣掉另外兩部分的距離*/
+    box-sizing: border-box;
+}
+.header .top-wrapper .search-wrapper .search-bar {
+    width: 100%;
+    height: 31px;
+    border: 0;
+    /* 设置盒子从边框开始计算*/
+    box-sizing: border-box;
+    background: #cdcdcc;
+    border-radius: 25px;
+    padding-left: 28px;
+    /* 留空間放搜尋圖標 */
+    /* 去除focus那個醜醜的籃框*/
+    outline: none;
+}
+.header .top-wrapper .more-wrapper .spelling-bt {
+    width: 30px;
+    height: 17px;
+    color: white;
+    line-height: 17px;
+    border: 1px solid white;
+    text-align: center;
+    float: left;
+    text-decoration: none;
+    font-size: 10px;
+}
+.header .top-wrapper .more-wrapper {
+    /*width: 104px;*/
+    width: 65px;
+    /*height: 31px;*/
+    height: 24px;
+    /*background: blue;*/
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 7px 15px 0 24px;
+}
+.header .top-wrapper .more-wrapper .more-bt {
+    float: right;
+    width: 20px;
+    height: 24px;
+    margin-left: 13px;
+    margin-top: 6px;
+}
+.header .top-wrapper .more-wrapper .more-bt .little-circle {
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: block;
+    /* block是區塊元素，記得要用float */
+    float: left;
+    margin-right: 1px;
+}
+.header .bg-wrapper {
+    width: 100%;
+    height: 200px;
+    /* height: 150px; */
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    background-size: 100% 135%;
+    background-position: center -12px;
+}
