@@ -96,3 +96,208 @@
     background-size: 100% 135%;
     background-position: center -12px;
 }
+.content-wrapper{
+    padding:35px 10px 11px;
+    height:50px;
+}
+.content-wrapper .icon{
+    width: 50px;
+    height: 50px;
+    background-size: 130% 100%;
+    background-position: center;
+    border-radius: 5px;
+    float:left;
+}
+.content-wrapper .name{
+    float:left;
+    padding:18px 0 0 12px;
+}
+.content-wrapper .name h3{
+    font-size: 16px;
+    font-weight: bold;
+    color:white;
+}
+.content-wrapper .collect{
+    height: 30px;
+    width: 30px;
+    float:right;
+    text-align: center;
+    padding-top: 10px;
+}
+.content-wrapper .collect img{
+    width:20px;
+    height: 20px; 
+}
+.content-wrapper .collect span{
+    margin-top: 7px;
+    color:white;
+    font-size: 10px;
+}
+/* 公告內容部分 */
+.bulletin-wrapper{
+    height:16px;
+    padding:10px 10px;
+    background-color: rgba(240, 248, 255, 0.616);
+    cursor: pointer;
+}
+.bulletin-wrapper .icon{
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-right: 6px;
+    line-height: 16px;
+}
+.bulletin-wrapper .text{
+    font-size: 11px;
+    color: black;
+    float:left;
+    line-height: 16px;
+
+}
+.bulletin-wrapper .detail{
+    color: black;
+    float: right;
+    font-size: 11px;
+    line-height: 16px;
+}
+.bulletin-wrapper .detail span{
+    font-size: 16px;
+    float: right;
+    line-height: 16px;
+}
+/* 公告詳情內容 */
+.header .bulletin-detail{
+    width:100%;
+    height: 100%;
+    position:absolute;
+    background-color: rgba(128, 128, 128, 0.658);
+    top: 0;
+    left: 0;
+       z-index: 9;
+}
+.header .bulletin-detail .detail-wrapper{
+    width: 80%;
+    height: 70%;
+    /* padding: 43px 20px 125px ; */
+    margin:43px auto 100px;
+    box-sizing: border-box;
+}
+.header .bulletin-detail .detail-wrapper .main-wrapper{
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    /* 當網面拉伸時會有明顯減切效果接縫，這跟repeat有關，但同樣可以透過background-size同大同小解決 */
+    border-radius: 10px;
+    text-align: center;
+
+}
+.header .bulletin-detail .detail-wrapper .main-wrapper .detail-icon{
+    width: 70px;
+    height: 70px;
+    background-size: 130% 100%;
+    background-position: center;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 30px;
+}
+.header .bulletin-detail .detail-wrapper .main-wrapper .detail-name {
+    font-size: 15px;
+    color: white;
+    margin-top: 13px;
+}
+/* 星星 */
+.header .bulletin-detail .detail-wrapper .main-wrapper .star-score{
+    height:10px;
+    margin-bottom: 6px;
+    text-align:center;
+}
+.header .bulletin-detail .detail-wrapper .main-wrapper .star-score .star{
+    /* 組件裡面的star 屬性 */
+    display: inline-block;
+    margin-right: 7px;
+}
+.header .bulletin-detail .detail-wrapper .main-wrapper .star-score span {
+    display: inline-block;
+    font-size: 10px;
+    color: white;
+}
+
+.header .bulletin-detail .detail-wrapper .main-wrapper .tip {
+    font-size: 14px;
+    color: #bababc;
+    margin-top: 8px;
+}
+
+.header .bulletin-detail .detail-wrapper .main-wrapper .tip i {
+    margin: 0 7px;
+}
+
+.header .bulletin-detail .detail-wrapper .main-wrapper .time {
+    font-size: 14px;
+    color: #bababc;
+    margin-top: 13px;
+    padding-bottom: 13px;
+    border-bottom: 1px solid grey;
+}
+
+.header .bulletin-detail .detail-wrapper .main-wrapper .discounts {
+    margin-top: 8px;
+    padding: 0 20px;
+}
+
+.header .bulletin-detail .detail-wrapper .main-wrapper .discounts p {
+    padding-top: 15px;
+}
+
+.header .bulletin-detail .detail-wrapper .main-wrapper .discounts img {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+.header .bulletin-detail .detail-wrapper .main-wrapper .discounts span {
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+}
+.header .bulletin-detail .detail-wrapper .close-wrapper {
+    padding-top: 20px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.header .bulletin-detail .detail-wrapper .close-wrapper span {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 14px;
+    color: white;
+    display: inline-block;
+    background: rgba(128, 128, 128, 0.479);
+    border: 1px solid rgba(128, 128, 128, 0.822);
+}
+	/* Vue過度效果
+ <transitionn  name="detail"> </transition>
+ name值帶入xxx
+ 進入
+ .xxx-enter   過度開始狀態
+ .xxx-enter-to 過度结束狀態
+ .xxx-enter-active  過渡時間及延遲
+ 
+ 离开
+ .xxx-leave  過度開始狀態
+ .xxx-leave-to 過度結束狀態
+ .xxx-leave-active 過渡時間及延遲
+ */
+
+ .detail-enter-active ,.detail-leave-active{
+    transition: all 0.75s ease-in-out;
+ }
+ .detail-enter, .detail-leave-to{
+    opacity: 0;
+ }
+ .detail-enter-to, .detail-leave{
+    opacity: 1;
+ }

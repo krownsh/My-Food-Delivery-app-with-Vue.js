@@ -15,8 +15,9 @@
 </template>
 
 <script>
-import MyHeader from "./components/Header/Header";
-import MyNav from "./components/Nav/Nav";
+import MyHeader from "components/Header/Header";
+import MyNav from "components/Nav/Nav";
+// 因為我們有在webpack.base.conf裡的resolve新增依據 'components': resolve('./src/components')，所以路徑有改變
 
 export default {
   name: "app",
