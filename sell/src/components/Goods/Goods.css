@@ -1,0 +1,47 @@
+/* 因為要讓它裡面還可以滑取，所以先用外面一個包起來 */
+.goods{
+    display: flex;
+    position: absolute;
+    top:240px;
+    bottom:51px; 
+    /* 放購物車的位置 */
+    overflow: hidden;
+    width: 100%;
+}
+.goods .menu-wrapper{
+ flex:0 0 85px;
+ /*  固定不放大  固定部縮小    固定85px   */
+ /* 0默認不放大  1默認會縮小     */
+ /* 必填         選填           選填 */
+ background-color: whitesmoke;
+}
+
+.goods .menu-wrapper .menu-item{
+    padding:10px 15px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.goods .menu-wrapper .menu-item .text{
+    color: black;
+    font-size: 13px;
+    line-height: 18px;
+
+
+    /* 多行省略方法 ，這樣是一套聯合技*/
+    display: -webkit-box;
+    /* 必寫 */
+    -webkit-box-orient: vertical;
+    /* 必寫，伸縮盒子後的排列方式 */
+    -webkit-line-clamp:2;
+    overflow: hidden;
+ 
+}
+.goods .menu-wrapper .menu-item .text .icon{
+    width:15px;
+    height:15px;
+    vertical-align: middle;
+}
+
+.goods .foods-wrapper{
+flex:1;
+background-color: blue;
+}
