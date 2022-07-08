@@ -1,0 +1,35 @@
+/* .cartcontrol{
+    font-size: 0;
+} */
+.cartcontrol .cart-decrease{
+    display: inline-block;
+	width: 26px;
+	height: 26px;
+	font-size: 26px;
+	color: #b4b4b4;
+}
+
+.cartcontrol .cart-count{
+    display: inline-block;
+	width: 26px;
+	height: 26px;
+	font-size: 26px;
+    vertical-align: top;
+	}
+.cartcontrol .cart-add{
+    display: inline-block;
+	width: 26px;
+	height: 26px;
+	font-size: 26px;
+	color: gold
+}
+.cartcontrol .cart-add .logo-bg{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    right: 3px;
+    top:3px;
+    z-index: -1;
+}

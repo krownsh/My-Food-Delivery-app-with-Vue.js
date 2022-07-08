@@ -1,0 +1,86 @@
+.shopcart-wrapper{
+	width: 100%;
+	height: 51px;
+	background: #666666;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	z-index: 99;
+}
+.shopcart-wrapper.highlight{
+    background-color: rgb(36, 33, 32);
+}
+.shopcart-wrapper .content-left{
+    flex:1;
+}
+.shopcart-wrapper .content-left .logo-wrapper{
+	width: 70px;
+	height: 70px;
+	background: #666666;
+	border-radius: 50%;
+	position: relative;
+	top: -34px;
+	left: 20px;
+	text-align: center;
+	float: left;
+    /* 內有兩個框框 */
+}
+.shopcart-wrapper .content-left .logo-wrapper.highlight{
+    background-color: gold;
+}
+.shopcart-wrapper .content-left .logo-wrapper .num{
+    /* 購物車被選取的樣式 */
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    font-size: 19px;
+    color: white;
+    background-color: red;
+    position: absolute;
+    top:0;
+    right:0px
+}
+
+.shopcart-wrapper .content-left .logo-wrapper span{
+    font-size: 50px;
+    color:white;
+    line-height: 70px;
+}
+.shopcart-wrapper .content-left .logo-wrapper span.highlight{
+    color: black;
+}
+.shopcart-wrapper .content-left .desc-wrapper{
+    float: left;
+    margin-left: 30px;
+    margin-top: 6px;
+}
+
+.shopcart-wrapper .content-left .desc-wrapper .total-price{
+    font-size: 20px;
+    line-height: 20px;
+    color: white;
+}
+.shopcart-wrapper .content-left .desc-wrapper .tip{
+    font-size: 18px;
+    color: gray;
+    line-height: 30px;
+}
+.shopcart-wrapper .content-left .desc-wrapper .tip.highlight{
+    font-size: 15px;
+    line-height: 25px;
+    color: gray;
+}
+.shopcart-wrapper .content-right{
+    flex:0 0 110px;
+    font-size: 20px;
+	color: white;
+	line-height: 50px;
+	text-align: center;
+	font-weight: bold;
+} 
+.shopcart-wrapper .content-right.highlight{
+    background-color: gold;
+    color:black
+}
