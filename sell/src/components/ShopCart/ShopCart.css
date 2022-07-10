@@ -84,3 +84,125 @@
     background-color: gold;
     color:black
 }
+
+
+/* 購物籃部分 */
+.shopcart-wrapper .shopcart-list{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	width: 100%;
+}
+.shopcart-wrapper .shopcart-list.show{
+	transform: translateY(-100%);
+}
+
+.shopcart-wrapper .shopcart-list .list-top{
+    /* 購物籃的活動  可刪除 */
+	height: 30px;
+	text-align: center;
+	font-size: 11px;
+	background: #f3e6c6;
+	line-height: 30px;
+	color: #646158;
+}
+
+.shopcart-wrapper .shopcart-list .list-header{
+	height: 32px;
+	background: rgb(170, 170, 170);
+}
+.shopcart-wrapper .shopcart-list .list-header .title{
+	float: left;
+	border-left: 4px solid #53c123;
+	padding-left: 6px;
+	line-height: 30px;
+	font-size: 12px;
+}
+.shopcart-wrapper .shopcart-list .list-header .empty{
+	float: right;
+	line-height: 30px;
+	margin-right: 10px;
+	font-size: 0;
+
+}
+.shopcart-wrapper .shopcart-list .list-header .empty img{
+	height: 14px;
+	margin-right: 9px;
+	vertical-align: middle;
+}
+.shopcart-wrapper .shopcart-list .list-header .empty span{
+	font-size: 12px;
+	vertical-align: middle;
+}
+
+.shopcart-wrapper .shopcart-list .list-content{
+	max-height: 360px;
+	overflow: hidden;
+	background: white;
+    width: 100%;
+}
+.shopcart-wrapper .shopcart-list .list-content .food{
+	height: 50px;
+	padding: 12px 12px 10px 12px;
+	border-bottom: 1px solid #F4F4F4;
+}
+.shopcart-wrapper .shopcart-list .list-content .food .desc-wrapper{
+	float: left;
+	width: 220px;
+}
+.shopcart-wrapper .shopcart-list .list-content .food .cartcontrol-wrapper{
+	float: right;
+	margin-top: 6px;
+}
+
+.shopcart-wrapper .shopcart-list .list-content .food .desc-wrapper .desc-left{
+	float: left;
+	width: 130px;
+}
+.shopcart-wrapper .shopcart-list .list-content .food .desc-wrapper .desc-left .name{
+	font-size: 16px;
+	margin-bottom: 8px;
+
+
+    -webkit-line-clamp: 1;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	height: 16px;
+} 
+.shopcart-wrapper .shopcart-list .list-content .food .desc-wrapper .desc-left .unit{
+	font-size: 12px;
+	color: #B4B4B4;
+}
+.shopcart-wrapper .shopcart-list .list-content .food .desc-wrapper .desc-left .description{
+	font-size: 12px;
+	color: #B4B4B4;
+		
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 12px;
+}
+.shopcart-wrapper .shopcart-list .list-content .food .desc-wrapper .desc-right{
+	float: right;
+	width: 70px;
+	text-align: right;	
+    margin-top: 9px;
+    margin-right: 5px;
+}
+/* .shopcart-wrapper .shopcart-list .list-content .food .desc-wrapper .desc-right .price{
+	font-size: 12px;
+	line-height: 38px;
+} */
+
+.shopcart .shopcart-mask{
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 98px;
+	background: rgba(7,17,27,0.6);
+}

@@ -13,8 +13,9 @@
     display: inline-block;
 	width: 26px;
 	height: 26px;
-	font-size: 26px;
+	font-size: 20px;
     vertical-align: top;
+    margin-right: -10px;
 	}
 .cartcontrol .cart-add{
     display: inline-block;
@@ -32,4 +33,12 @@
     right: 3px;
     top:3px;
     z-index: -1;
+}
+
+/* 動畫  可移除 */
+.move-enter-active, .move-leave-active{
+    transition:all 0.3s ease-in-out;
+}
+.move-enter, .move-leave-to{
+    transform: translateX(20px) rotate(180deg);
 }

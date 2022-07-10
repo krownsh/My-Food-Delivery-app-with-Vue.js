@@ -47,6 +47,21 @@
     height:15px;
     vertical-align: middle;
 }
+.goods .menu-wrapper .menu-item .num{
+	position:absolute;
+	width:13px;
+	height: 13px;
+	border-radius: 50%;
+	color: white;
+	background-color: red;
+right:5px;
+top:5px;
+text-align: center;
+font-size: 7px;
+
+}
+
+
 
 .goods .foods-wrapper{
 flex:1;

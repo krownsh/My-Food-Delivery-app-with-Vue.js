@@ -22,7 +22,7 @@
                     {{item.name}}
                 </p>
 				<!-- <i class="num" v-show="calculateCount(item.spus)">{{calculateCount(item.spus)}}</i> -->
-
+                <i class="num" v-show="calculateCount(item.spus)">{{calculateCount(item.spus)}}</i>
             </li>
         </ul>
     </div>
@@ -34,13 +34,15 @@
 						<img :src="item.pic_url" />
 					</div>
 				</li>
-            <li v-for="item in goods" class="food-list food-list-slide"> 
+            <li v-for="item in goods" class="food-list food-list-slide"
+            > 
             <!--                                       用來抓滾輪高度 -->
             <!-- 這是品項分類 -->
             <h3 class="title">{{item.name}}</h3>
             <!-- 這是單一商品列表 -->
             <ul>
-                <li v-for="food in item.spus" class="food-item">
+                <li v-for="food in item.spus" class="food-item"
+                @click="showDetail(food)">
                     <div class="icon" :style="head_bg(food.picture)">
                     <!-- 原本背景圖都是用computed在寫得，但因為我們要抓的是屬性裡面的值，computed沒辦法傳參，因此要用method方法寫 -->
                     </div>
@@ -61,16 +63,18 @@
 								</p>
                     </div>
                     <div class="cartcontrol-wrapper">
-                    <Cartcontrol></Cartcontrol>
+                    <Cartcontrol :food="food" ></Cartcontrol>
                     </div>
                 </li>
             </ul>
             </li>
         </ul>
     </div>
-    <ShopCart :shipping_fee_tip='poiInfo.shipping_fee_tip' 
-    :min_price_tip='poiInfo.min_price_tip'></ShopCart>
+    <ShopCart :poiInfo="poiInfo" :selectFoods="selectFoods"></ShopCart>
     <!-- 在下面data導入json檔資料，再透過json的欄位名稱來傳值,而後再到購物車vue的export default的props屬性，設定接收 -->
+    
+    <!-- 商品詳情 -->
+    <Food :food="selectedFood" ref="foodView"></Food>
 </div>
 
 </template>
@@ -81,6 +85,8 @@ import betterscroll from '@better-scroll/core';
 import ShopCart from "../ShopCart/ShopCart.vue";
 // https://better-scroll.github.io/docs/zh-CN/guide/how-to-install.html
 import Cartcontrol from '../Cartcontrol/Cartcontrol.vue';
+import Food from '../Food/Food.vue';
+
 
 export default{
     data() {
@@ -90,7 +96,7 @@ export default{
             goods: [],
             // 依照json內容格式建立
             poiInfo:{},
-            listHeight: [],
+            listHeight: [], 
             // 用來抓滾輪區間高度
             scrollY: 0,
             // betterScroll計算插件滾動值
@@ -156,7 +162,7 @@ export default{
             this.foodScroll.on("scroll", (position) => {
                 // console.log(position.y)
                 this.scrollY = Math.abs(Math.round(position.y));
-                console.log(this.scrollY);
+                // console.log(this.scrollY);
             });
         },
         // 計算各格區間的高度
@@ -182,6 +188,23 @@ export default{
             // 滚动到对应元素的位置
             this.foodScroll.scrollToElement(el, 250); //說明文件寫法
         },
+        calculateCount(spus){
+            // 計算屬性無法傳參，所以要寫在方法
+            let count = 0;
+            spus.forEach((food)=>{
+                if(food.count>0){
+                    count+=food.count;
+                }
+            });
+            return count;
+        },
+        showDetail(food){
+            // 先傳值給food組件
+            this.selectedFood = food;
+            // 再調用food組件的方法呼叫出來(先給他一個ref屬性帶進去)
+            this.$refs.foodView.showView();
+
+        }
     },
     computed: {
         currentIndex() {
@@ -196,15 +219,29 @@ export default{
                 }
             }
             return 0;
-        }
+        },
+        selectFoods(){
+            // 透過計算cartcontrol傳遞過來幾個地值，再傳遞給shopcart
+            let foods =[];
+            this.goods.forEach((good)=>{
+                good.spus.forEach((food)=>{
+                // 欄位的名稱     這裡each的就是food裡的值了 
+                    if(food.count>0){
+                        foods.push(food);
+                    }
+                });
+            });
+            return foods;
+        },
+
     },
-    component: {
+    components: {
         // 將匯入的元件進行註冊
         betterscroll,
         ShopCart,
         Cartcontrol,
+        Food
     },
-    components: { ShopCart, Cartcontrol }
 };
 
 </script>
