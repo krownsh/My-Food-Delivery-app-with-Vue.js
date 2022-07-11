@@ -8,7 +8,7 @@
         <div class="logo-wrapper" :class="{'highlight':totalCount>0}"
         @click="toggleList">
         <!-- 是否展開購物籃 -->
-        <span class="icon-shopping_cart" :class="{'highlight':totalCount>0}"></span>
+        <span class="icon-shopping_cart logo" :class="{'highlight':totalCount>0}"></span>
         <i class="num" v-show="totalCount">{{totalCount}}
         <!--                   如果為true才執行 -->
         <!-- 購物車選中的另外樣式 -->
@@ -39,7 +39,7 @@
         <div class="list-content" ref="listContent">
         <!-- 設定 ref="listContent"屬性，丟給computed-->
             <ul>
-                <li class="food" v-for="food in selectFoods">
+                <li class="food-item" v-for="food in selectFoods">
                     <div class="desc-wrapper">
                         <div class="desc-left">
                             <p class="name" >{{food.name}}</p>
@@ -142,7 +142,7 @@
             },
             listShow(){
             //展開與否，從data取值 
-                if(!this.totalCount){
+                if(!this.totalCount){  //個數為0
                     this.fold = true;
                     return false;
                 }

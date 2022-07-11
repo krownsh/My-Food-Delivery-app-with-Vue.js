@@ -43,12 +43,12 @@
     right:0px
 }
 
-.shopcart-wrapper .content-left .logo-wrapper span{
+.shopcart-wrapper .content-left .logo-wrapper .logo{
     font-size: 50px;
     color:white;
     line-height: 70px;
 }
-.shopcart-wrapper .content-left .logo-wrapper span.highlight{
+.shopcart-wrapper .content-left .logo-wrapper .logo.highlight{
     color: black;
 }
 .shopcart-wrapper .content-left .desc-wrapper{
@@ -140,27 +140,27 @@
 	max-height: 360px;
 	overflow: hidden;
 	background: white;
-    width: 100%;
+    /* width: 100%; */
 }
-.shopcart-wrapper .shopcart-list .list-content .food{
+.shopcart-wrapper .shopcart-list .list-content .food-item{
 	height: 50px;
 	padding: 12px 12px 10px 12px;
 	border-bottom: 1px solid #F4F4F4;
 }
-.shopcart-wrapper .shopcart-list .list-content .food .desc-wrapper{
+.shopcart-wrapper .shopcart-list .list-content .food-item .desc-wrapper{
 	float: left;
 	width: 220px;
 }
-.shopcart-wrapper .shopcart-list .list-content .food .cartcontrol-wrapper{
+.shopcart-wrapper .shopcart-list .list-content .food-item .cartcontrol-wrapper{
 	float: right;
 	margin-top: 6px;
 }
 
-.shopcart-wrapper .shopcart-list .list-content .food .desc-wrapper .desc-left{
+.shopcart-wrapper .shopcart-list .list-content .food-item .desc-wrapper .desc-left{
 	float: left;
 	width: 130px;
 }
-.shopcart-wrapper .shopcart-list .list-content .food .desc-wrapper .desc-left .name{
+.shopcart-wrapper .shopcart-list .list-content .food-item .desc-wrapper .desc-left .name{
 	font-size: 16px;
 	margin-bottom: 8px;
 
@@ -171,11 +171,11 @@
 	overflow: hidden;
 	height: 16px;
 } 
-.shopcart-wrapper .shopcart-list .list-content .food .desc-wrapper .desc-left .unit{
+.shopcart-wrapper .shopcart-list .list-content .food-item .desc-wrapper .desc-left .unit{
 	font-size: 12px;
 	color: #B4B4B4;
 }
-.shopcart-wrapper .shopcart-list .list-content .food .desc-wrapper .desc-left .description{
+.shopcart-wrapper .shopcart-list .list-content .food-item .desc-wrapper .desc-left .description{
 	font-size: 12px;
 	color: #B4B4B4;
 		
@@ -185,17 +185,18 @@
     overflow: hidden;
     height: 12px;
 }
-.shopcart-wrapper .shopcart-list .list-content .food .desc-wrapper .desc-right{
+.shopcart-wrapper .shopcart-list .list-content .food-item .desc-wrapper .desc-right{
 	float: right;
 	width: 70px;
 	text-align: right;	
     margin-top: 9px;
     margin-right: 5px;
 }
-/* .shopcart-wrapper .shopcart-list .list-content .food .desc-wrapper .desc-right .price{
+.shopcart-wrapper .shopcart-list .list-content .food-item .desc-wrapper .desc-right .price{
 	font-size: 12px;
 	line-height: 38px;
-} */
+}
+/* xxxxxxxxx */
 
 .shopcart .shopcart-mask{
 	position: fixed;

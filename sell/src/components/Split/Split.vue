@@ -12,7 +12,7 @@ export default{}
 <style>
 .split{
     width: 100%;
-    height:20px;
+    height:10px;
     background-color: #f4f4f4;
 }
 </style>
