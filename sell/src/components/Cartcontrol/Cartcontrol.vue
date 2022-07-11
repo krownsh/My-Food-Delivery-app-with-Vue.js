@@ -14,7 +14,8 @@
     <div class="cart-count" v-show="food.count">{{food.count}}</div>
     <div class="cart-add icon-add_circle"
     @click.stop.prevent="addCart">
-     <i class="logo-bg"></i>
+     <!-- <i class="bg"></i> -->
+     <!-- /* bug找不到，目前不影響可刪 */ -->
      <!-- 讓文字圖案變成黑色背景 ，讓他變成黑色++-->
     </div>
 </div>

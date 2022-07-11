@@ -24,7 +24,12 @@
 	font-size: 26px;
 	color: gold
 }
-.cartcontrol .cart-add .logo-bg{
+.cartcontrol .cart-add::after{
+    /* bug找不到，目前不影響可刪 */
+    content: "";
+    background-color: black;
+}
+.cartcontrol .cart-add .bg{
     width: 20px;
     height: 20px;
     border-radius: 50%;
