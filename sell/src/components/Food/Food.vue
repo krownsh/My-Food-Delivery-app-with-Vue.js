@@ -1,4 +1,4 @@
-<!-- 食物詳情葉 -->
+<!-- 點擊商品進入的食物詳情頁 -->
 
 <template>
 <transition name="detail">
@@ -7,13 +7,10 @@
 
 				<div class="food-content">
 					<div class="img-wrapper">
-						<img class="food-img" :src="food.picture" />
+						<img class="food-img" :src="food.file_path" />
 
 						<span class="close-bt icon-close" @click="closeView"></span>
-						<!-- <img class="share-bt" src="./share.png" /> -->
-                        <!-- 可刪除  不建置功能 -->
-						<!-- <img class="more-bt" src="./more.png" /> -->
-                        <!-- 可刪除  不建置功能 -->
+
 					</div>
                     	<div class="content-wrapper">
 						<h3 class="name">{{food.name}}</h3>
@@ -22,7 +19,7 @@
                         <!--                  有才顯示 -->
 						<p class="price">
 							<span class="text">${{food.min_price}}</span>
-							<span class="unit">/{{food.unit}}</span>
+							<!-- <span class="unit">/{{food.unit}}</span> -->
 						</p>
                         <div class="cartcontrol-wrapper">
 							<Cartcontrol :food="food"></Cartcontrol>
@@ -41,7 +38,7 @@
 					<div class="rating-title">
 						<div class="like-ratio" v-if="food.rating">
                         <!--                    "title">{{food.rating.title}}拜訪兩個層級以上記得要用if,而且2曾寫法     -->
-							<span class="title">{{food.rating.title}}</span>
+							<span class="title">{{food.name}}</span>
 							<span class="ratio">
 							(
 								{{food.rating.like_ratio_desc}}

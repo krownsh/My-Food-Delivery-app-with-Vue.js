@@ -28,7 +28,7 @@
 			<Split></Split>
 			<div class="tip-wrapper">
 				<div class="delivery-wrapper">
-					外送服務: {{seller.app_delivery_tip}}
+					食品業者登錄字號： {{seller.app_delivery_tip}}
 				</div>
 				<div class="shipping-wrapper">
 					服務時間: {{seller.shipping_time}}
@@ -72,10 +72,10 @@ export default{
 			}
 		},
 		created() {
-			// 通过axios发起get请求
+
 			let that = this;
-			this.$axios.get('/api/seller')
-				.then(function(response) { // 获取到数据
+			this.$axios.get('/static/星巴克(店家資訊).json')
+				.then(function(response) { // 
 					var dataSource = response.data;
 					if(dataSource.code == 0) {
 						that.seller = dataSource.data;

@@ -118,12 +118,12 @@ flex:1;
 }
 .goods .foods-wrapper .food-list .food-item .content .desc{
 	font-size: 15px;
-	line-height: 15px;
+	line-height: 16px;
 	color: grey;
 	margin-bottom: 8px;
-	
+	padding-right: 5rem;
 	/* 省略號效果*/
-	-webkit-line-clamp: 1;
+	-webkit-line-clamp: 2;
 	display: -webkit-box;
 	-webkit-box-orient: vertical;
 	overflow: hidden;

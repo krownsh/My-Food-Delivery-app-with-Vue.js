@@ -30,8 +30,11 @@
         <ul>
         <!--上面的廣告-->
 				<li class="container-list food-list-slide">
-					<div v-for="item in container.operation_source_list">
-						<img :src="item.pic_url" />
+					<div >
+						<img src="../../../resource/img/promotion1.png"/>
+                        <img src="../../../resource/img/promotion2.png"/>
+						<img src="../../../resource/img/promotion3.png"/>
+
 					</div>
 				</li>
             <li v-for="item in goods" class="food-list food-list-slide"
@@ -43,7 +46,7 @@
             <ul>
                 <li v-for="food in item.spus" class="food-item"
                 @click="showDetail(food)">
-                    <div class="icon" :style="head_bg(food.picture)">
+                    <div class="icon" :style="head_bg(food.file_path)">
                     <!-- 原本背景圖都是用computed在寫得，但因為我們要抓的是屬性裡面的值，computed沒辦法傳參，因此要用method方法寫 -->
                     </div>
                     <div class="content">
@@ -59,7 +62,7 @@
                         <img class="product" :src="food.product_label_picture" v-show="food.product_label_picture" />
 								<p class="price">
 									<span class="text">${{food.min_price}}</span>
-									<span class="unit">/{{food.unit}}</span>
+									<!-- <span class="unit">/{{food.unit}}</span> -->
 								</p>
                     </div>
                     <div class="cartcontrol-wrapper">
@@ -109,7 +112,7 @@ export default{
         var that = this;
         // 發請異步請求，以獲取數據
         // Make a request for a user with a given ID
-        this.$axios.get("/static/01-商品页(点菜).json")
+        this.$axios.get("/static/星巴克(店家菜單).json")
             // this.$axios.get('/api/goods')
             .then(function (response) {
             // handle success

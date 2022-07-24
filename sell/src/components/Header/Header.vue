@@ -11,7 +11,6 @@
         <input class="search-bar" type="text" placeholder="搜尋" />
       </form>
       <div class="more-wrapper">
-        <a class="spelling-bt" href="#">拚單</a>
         <div class="more-bt">
           <i class="little-circle"></i>
           <i class="little-circle"></i>
@@ -60,7 +59,8 @@
     <div class="bulletin-detail" v-show="isShow"> 
     <!-- v-show的使用相似於v-if，v-if是有條件的渲染，若判斷為true則渲染；v-show則是無條件渲染 -->
       <div class="detail-wrapper" >
-        <div class="main-wrapper" :style="detail_bg">
+        <!-- <div class="main-wrapper" :style="detail_bg"> -->
+        <div class="main-wrapper" >
           <div class="detail-icon" :style="head_bg"></div>
           <h3 class="detail-name">{{poiInfo.name}}</h3>
 
@@ -81,7 +81,10 @@
           <div class="discounts">
             <p>
               <img v-if="poiInfo.discounts2" :src="poiInfo.discounts2[0].icon_url" >
-              <span v-if="poiInfo.discounts2">{{poiInfo.discounts2[0].info}}</span>
+              <span  v-if="poiInfo.discounts2">{{poiInfo.discounts2[0].info}}</span><br/><br/>
+              <span  v-if="poiInfo.discounts2">{{poiInfo.discounts2[1].info}}</span><br/><br/>
+              <span  v-if="poiInfo.discounts2">{{poiInfo.discounts2[2].info}}</span>
+
               <!-- 跟上面一樣狀況 -->
             </p>
           </div>
@@ -148,5 +151,5 @@ export default {
 /* 另一種的字體圖標，需要先導入樣式才行 */
 @import url("../../common/styles/icon.css");
 
-@import url("Header.css");
+@import url("./Header.css");
 </style>

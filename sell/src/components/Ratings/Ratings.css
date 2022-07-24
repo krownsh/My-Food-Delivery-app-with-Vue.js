@@ -13,8 +13,7 @@
 }
 
 .ratings .ratings-wrapper .overview .overview-left {
-    flex: 1;
-    padding-left: 26px;
+    margin: auto auto;
 }
 .ratings .ratings-wrapper .overview .overview-right {
     flex: 0 0 100px;
@@ -23,7 +22,7 @@
 }
 .ratings .ratings-wrapper .overview .overview-left .comment-score {
     float: left;
-    width: 48px;
+    width: 70px;
     text-align: center;
     margin-right: 26px;
 }
@@ -36,8 +35,9 @@
 }
 
 .ratings .ratings-wrapper .overview .overview-left .comment-score .text {
-    font-size: 11px;
+    font-size: 15px;
     color: grey;
+    font-weight: bold;
 }
 
 .ratings .ratings-wrapper .overview .overview-left .other-score {
@@ -59,6 +59,7 @@
 .ratings .ratings-wrapper .overview .overview-left .other-score .item .star {
     float: left;
     margin-right: 11px;
+    width: 80px;
 }
 
 .ratings .ratings-wrapper .overview .overview-left .other-score .item .score {
@@ -108,7 +109,7 @@
 }
 
 .ratings .ratings-wrapper .content .rating-select .item {
-    width: 33.3%;
+    width: 50%;
     display: inline-block;
     height: 33px;
     line-height: 33px;

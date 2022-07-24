@@ -1,0 +1,976 @@
+{
+	"data": {
+		"comment_num": 31,
+		"avg_ship_time": 0,
+		"comment_score": 4.7,
+		"food_score": 4.7,
+		"delivery_score": 4.8,
+		"quality_score": 4.6,
+		"pack_score": 4.7,
+		"filter_type_num": 31,
+		"comment_score_type_infos": [
+			{
+				"comment_score_type": 1,
+				"total_count": 3428,
+				"comment_score_title": "好評"
+			}, {
+				"comment_score_type": 3,
+				"total_count": 180,
+				"comment_score_title": "差評"
+			}
+		],
+		"comments": [
+			{
+				"user_id": "44e04c28-ee97-4823-8d3c-49ef8c795abe",
+				"order_comment_score": 5,
+				"comment_time": "2022-07-21",
+				"updatedAt": "2022-07-21T01:12:29Z",
+				"comment": "一級棒服務讚",
+				"isAnonymous": false,
+				"user_name": "小丘",
+				"reviewerId": "twcmp4wa",
+		
+				"ratings": [
+				  {
+					"topic": "overall",
+					"score": 5
+				  },
+				  {
+					"topic": "restaurant_food",
+					"score": 5
+				  },
+				  {
+					"topic": "rider",
+					"score": 5
+				  }
+				],
+				"type": "user",
+				"automatedcomment": null,
+				"replies": []
+			  },
+			  {
+				"user_id": "0abafd03-3a13-4eb8-8a87-f2c25c35850d",
+				"order_comment_score": 2,
+				"comment_time": "2022-06-27",
+				"updatedAt": "2022-06-27T05:22:43Z",
+				"comment": "少東少西的",
+				"isAnonymous": false,
+				"user_name": "樺",
+				"reviewerId": "twimr3wg",
+		
+				"ratings": [
+				  {
+					"topic": "overall",
+					"score": 2
+				  },
+				  {
+					"topic": "restaurant_food",
+					"score": 2
+				  },
+				  {
+					"topic": "rider",
+					"score": 4
+				  }
+				],
+				"type": "user",
+				"automatedcomment": null,
+				"replies": []
+			  },
+			  {
+				"user_id": "4acd4db1-6a87-466d-b1b1-1c9264d1f121",
+				"order_comment_score": 5,
+				"comment_time": "2022-06-23",
+				"updatedAt": "2022-06-23T00:58:52Z",
+				"comment": "ㄗㄢ！",
+				"isAnonymous": false,
+				"user_name": "秉諭",
+				"reviewerId": "twegx4fh",
+		
+				"ratings": [
+				  {
+					"topic": "overall",
+					"score": 5
+				  },
+				  {
+					"topic": "restaurant_food",
+					"score": 5
+				  },
+				  {
+					"topic": "rider",
+					"score": 5
+				  }
+				],
+				"type": "user",
+				"automatedcomment": null,
+				"replies": []
+			  },
+			  {
+				"user_id": "13ec4c1d-6e7f-4f2e-91ff-de6c6c33751f",
+				"order_comment_score": 2,
+				"comment_time": "2022-06-22",
+				"updatedAt": "2022-06-22T07:58:31Z",
+				"comment": "少了2杯😢",
+				"isAnonymous": false,
+				"user_name": "HELEN",
+				"reviewerId": "twfkg7wp",
+		
+				"ratings": [
+				  {
+					"topic": "overall",
+					"score": 2
+				  },
+				  {
+					"topic": "restaurant_food",
+					"score": 2
+				  }
+				],
+				"type": "user",
+				"automatedcomment": null,
+				"replies": []
+			  },
+			  {
+				"user_id": "24516804-b559-4c51-8014-2ee5a25bb901",
+				"order_comment_score": 3,
+				"comment_time": "2022-06-22",
+				"updatedAt": "2022-06-22T02:49:23Z",
+				"comment": "咖啡濃度稍嫌不足",
+				"isAnonymous": false,
+				"user_name": "なおき",
+				"reviewerId": "twtby4su",
+		
+				"ratings": [
+				  {
+					"topic": "overall",
+					"score": 3
+				  },
+				  {
+					"topic": "restaurant_food",
+					"score": 3
+				  }
+				],
+				"type": "user",
+				"automatedcomment": null,
+				"replies": []
+			  },
+			  {
+				"user_id": "198a921e-5312-408f-b6f0-5a3c401ac887",
+				"order_comment_score": 5,
+				"comment_time": "2022-04-21",
+				"updatedAt": "2022-04-21T09:15:46Z",
+		
+				"comment": "Nice",
+				"isAnonymous": false,
+				"user_name": "王",
+				"reviewerId": "twr1y30w",
+				"ratings": [
+				  {
+					"topic": "restaurant_food",
+					"score": 5
+				  },
+				  {
+					"topic": "rider",
+					"score": 5
+				  }
+				],
+				"type": "user",
+				"automatedcomment": null,
+				"replies": []
+			  },
+			  {
+				"user_id": "4e4e9200-d183-46db-a109-b582e36bba40",
+				"order_comment_score": 5,
+				"comment_time": "2022-04-06",
+				"updatedAt": "2022-04-06T10:30:58Z",
+		
+				"comment": "Good!!",
+				"isAnonymous": false,
+				"user_name": "Andrea",
+				"reviewerId": "twrec2hs",
+				"ratings": [
+				  {
+					"topic": "restaurant_food",
+					"score": 5
+				  }
+				],
+				"type": "user",
+				"automatedcomment": null,
+				"replies": []
+			  },
+			  {
+				"user_id": "bcf993ae-49f3-4504-ac37-0a283bdea440",
+				"order_comment_score": 5,
+				"comment_time": "2022-02-14",
+				"updatedAt": "2022-02-14T12:08:54Z",
+		
+				"comment": "太貼心的主動備註去“情人節快樂”給推",
+				"isAnonymous": false,
+				"user_name": "yuelin",
+				"reviewerId": "twcfs9un",
+				"ratings": [
+				  {
+					"topic": "restaurant_food",
+					"score": 5
+				  },
+				  {
+					"topic": "rider",
+					"score": 5
+				  }
+				],
+				"type": "user",
+				"automatedcomment": null,
+				"replies": []
+			  },
+			  {
+				"user_id": "1d0c3aa1-5ecd-45c6-b215-41323b54cdbe",
+				"order_comment_score": 5,
+				"comment_time": "2022-02-09",
+				"updatedAt": "2022-02-09T06:16:50Z",
+		
+				"comment": "最愛星巴克了❤️",
+				"isAnonymous": false,
+				"user_name": "嘉珮",
+				"reviewerId": "tw3fkdqb",
+				"ratings": [
+				  {
+					"topic": "restaurant_food",
+					"score": 5
+				  },
+				  {
+					"topic": "rider",
+					"score": 5
+				  }
+				],
+				"type": "user",
+				"automatedcomment": null,
+				"replies": []
+			  },
+			  {
+				"user_id": "4179e502-1b26-4efb-982c-3a73eb85502b",
+				"order_comment_score": 5,
+				"comment_time": "2021-12-21",
+				"updatedAt": "2021-12-21T03:08:48Z",
+				"comment": "覺得今天摩卡喝起來偏水",
+				"isAnonymous": false,
+				"user_name": "雅晴",
+				"reviewerId": "twngt8vt",
+				"ratings": [
+				  {
+					"topic": "packaging",
+					"score": 5
+		
+				},
+				  {
+					"topic": "punctuality",
+					"score": 5
+				  },
+				  {
+					"topic": "restaurant_food",
+					"score": 4
+				  },
+				  {
+					"topic": "rider",
+					"score": 5
+				  }
+				],
+				"type": "user",
+				"automatedcomment": null,
+				"replies": []
+			  },
+			  {
+				"user_id": "4da015c3-908f-434b-a470-5be12c943554",
+				"order_comment_score": 5,
+				"comment_time": "2021-12-10",
+				"updatedAt": "2021-12-10T09:56:59Z",
+		
+				"comment": "服務很好",
+				"isAnonymous": false,
+				"user_name": "Karen",
+				"reviewerId": "twvul6ex",
+				"ratings": [
+				  {
+					"topic": "restaurant_food",
+					"score": 5
+				  }
+				],
+				"type": "user",
+				"automatedcomment": null,
+				"replies": []
+			  },
+			  {
+				"user_id": "ca0f93f9-ff44-4116-ba05-836a2c93999c",
+				"order_comment_score": 3,
+				"comment_time": "2021-12-09",
+				"updatedAt": "2021-12-09T00:37:30Z",
+		
+				"comment": "請在入口處提醒外帶自取無需到櫃檯點餐口\n有另外的取餐處，避免櫃檯排隊人龍，謝謝",
+				"isAnonymous": false,
+				"user_name": "amber",
+				"reviewerId": "twu8xahe",
+				"ratings": [
+				  {
+					"topic": "restaurant_food",
+					"score": 3
+				  }
+				],
+				"type": "user",
+				"automatedcomment": null,
+				"replies": []
+			  },
+			  {
+				"user_id": "9abbde21-d212-4984-b109-72d45aaff11c",
+				"order_comment_score": 5,
+				"comment_time": "2021-11-24",
+				"updatedAt": "2021-11-24T00:35:49Z",
+				"comment": "熱壓不夠，有點冷，怎麼跟以前的差異那麼大！",
+				"isAnonymous": false,
+				"user_name": "玉玫",
+				"reviewerId": "twgvu1bc",
+				"ratings": [
+				  {
+					"topic": "packaging",
+					"score": 5
+		
+				},
+				  {
+					"topic": "punctuality",
+					"score": 5
+				  },
+				  {
+					"topic": "restaurant_food",
+					"score": 1
+				  },
+				  {
+					"topic": "rider",
+					"score": 5
+				  }
+				],
+				"type": "user",
+				"automatedcomment": null,
+				"replies": []
+			  },
+			  {
+				"user_id": "ccde671b-4474-49d9-ac1a-2446e4ac1f0e",
+				"order_comment_score": 5,
+				"comment_time": "2021-10-10",
+				"updatedAt": "2021-10-10T05:08:45Z",
+				"comment": "不知道是外送的原因還是？不論是咖啡還是星冰樂味道都很淡…",
+				"isAnonymous": false,
+				"user_name": "Lucia",
+				"reviewerId": "twyxw1pg",
+				"ratings": [
+				  {
+					"topic": "packaging",
+					"score": 5
+		
+				},
+				  {
+					"topic": "punctuality",
+					"score": 5
+				  },
+				  {
+					"topic": "restaurant_food",
+					"score": 2
+				  },
+				  {
+					"topic": "rider",
+					"score": 5
+				  }
+				],
+				"type": "user",
+				"automatedcomment": null,
+				"replies": []
+			  },
+			  {
+				"user_id": "0a7d82a9-936c-4f15-a439-fae66825df2a",
+				"order_comment_score": 5,
+				"comment_time": "2021-10-09",
+				"updatedAt": "2021-10-09T09:42:50Z",
+				"comment": "我的抹茶沒➕到一份咖啡 喝起來都是抹茶",
+				"isAnonymous": false,
+				"user_name": "Siaociao",
+				"reviewerId": "twqzhe20",
+				"ratings": [
+				  {
+					"topic": "packaging",
+					"score": 5
+		
+				},
+				  {
+					"topic": "punctuality",
+					"score": 5
+				  },
+				  {
+					"topic": "restaurant_food",
+					"score": 5
+				  },
+				  {
+					"topic": "rider",
+					"score": 5
+				  }
+				],
+				"type": "user",
+				"automatedcomment": null,
+				"replies": []
+			  },
+			  {
+				"user_id": "5d3aea32-00a8-4a3d-8b66-0ee7082d3168",
+				"order_comment_score": 1,
+				"comment_time": "2021-08-15",
+				"updatedAt": "2021-08-15T01:18:15Z",
+		
+				"comment": "ㄖㄙㄝ",
+				"isAnonymous": false,
+				"user_name": "於瑜",
+				"reviewerId": "twhce9iu",
+				"ratings": [
+				  {
+					"topic": "restaurant_food",
+					"score": 1
+				  }
+				],
+				"type": "user",
+				"automatedcomment": null,
+				"replies": []
+			  },
+			  {
+				"user_id": "4cd054eb-7d99-4526-924f-83da8dfadf41",
+				"order_comment_score": 3,
+				"comment_time": "2021-08-03",
+				"updatedAt": "2021-08-03T01:25:53Z",
+		
+				"comment": "ㄑㄙ",
+				"isAnonymous": false,
+				"user_name": "於瑜",
+				"reviewerId": "twhce9iu",
+				"ratings": [
+				  {
+					"topic": "restaurant_food",
+					"score": 3
+				  }
+				],
+				"type": "user",
+				"automatedcomment": null,
+				"replies": []
+			  },
+			  {
+				"user_id": "96607091-4aac-415e-b556-043535281e01",
+				"order_comment_score": 1,
+				"comment_time": "2021-07-16",
+				"updatedAt": "2021-07-16T02:40:45Z",
+		
+				"comment": "ㄒㄙ",
+				"isAnonymous": false,
+				"user_name": "於瑜",
+				"reviewerId": "twhce9iu",
+				"ratings": [
+				  {
+					"topic": "restaurant_food",
+					"score": 1
+				  }
+				],
+				"type": "user",
+				"automatedcomment": null,
+				"replies": []
+			  },
+			  {
+				"user_id": "866cfa75-3eec-4f60-8b8d-01b48bfc4bf1",
+				"order_comment_score": 5,
+				"comment_time": "2021-05-29",
+				"updatedAt": "2021-05-29T03:27:14Z",
+				"comment": "很貼心，還另外附上紙袋裝紙巾。避免咖啡露出會濕黏",
+				"isAnonymous": false,
+				"user_name": "素容",
+				"reviewerId": "twr1edfc",
+				"ratings": [
+				  {
+					"topic": "packaging",
+					"score": 5
+		
+				},
+				  {
+					"topic": "punctuality",
+					"score": 5
+				  },
+				  {
+					"topic": "restaurant_food",
+					"score": 5
+				  },
+				  {
+					"topic": "rider",
+					"score": 5
+				  }
+				],
+				"type": "user",
+				"automatedcomment": null,
+				"replies": []
+			  },
+			  {
+				"user_id": "3546721d-cebf-4721-b44a-78e8b7d71b72",
+				"order_comment_score": 4,
+				"comment_time": "2021-05-28",
+				"updatedAt": "2021-05-28T01:00:17Z",
+		
+				"comment": "好像",
+				"isAnonymous": false,
+				"user_name": "於瑜",
+				"reviewerId": "twhce9iu",
+				"ratings": [
+				  {
+					"topic": "restaurant_food",
+					"score": 4
+				  }
+				],
+				"type": "user",
+				"automatedcomment": null,
+				"replies": []
+			  },
+			  {
+				"user_id": "56e6bc54-e896-48dd-a99e-2edb93a099b3",
+				"order_comment_score": 5,
+				"comment_time": "2021-04-20",
+				"updatedAt": "2021-04-20T02:11:13Z",
+				"comment": "用折扣碼物超所值",
+				"isAnonymous": true,
+				"user_name": "",
+				"reviewerId": "",
+				"ratings": [
+				  {
+					"topic": "packaging",
+					"score": 5
+		
+				},
+				  {
+					"topic": "punctuality",
+					"score": 5
+				  },
+				  {
+					"topic": "restaurant_food",
+					"score": 5
+				  },
+				  {
+					"topic": "rider",
+					"score": 5
+				  }
+				],
+				"type": "user",
+				"automatedcomment": null,
+				"replies": []
+			  },
+			  {
+				"user_id": "a6b784b3-7489-4c5f-af7c-0dae30046f8c",
+				"order_comment_score": 5,
+				"comment_time": "2021-04-10",
+				"updatedAt": "2021-04-10T09:50:55Z",
+				"comment": "近兩次點的抹茶那提都特別淡，不知道抹茶粉是否有改過，沒有以前來得濃和香",
+				"isAnonymous": true,
+				"user_name": "",
+				"reviewerId": "",
+				"ratings": [
+				  {
+					"topic": "packaging",
+					"score": 5
+		
+				},
+				  {
+					"topic": "punctuality",
+					"score": 5
+				  },
+				  {
+					"topic": "restaurant_food",
+					"score": 4
+				  },
+				  {
+					"topic": "rider",
+					"score": 5
+				  }
+				],
+				"type": "user",
+				"automatedcomment": null,
+				"replies": []
+			  },
+			  {
+				"user_id": "e9ac1065-6da1-4151-a985-a0b1dd13bc9b",
+				"order_comment_score": 5,
+				"comment_time": "2021-04-05",
+				"updatedAt": "2021-04-05T01:09:15Z",
+				"comment": "已勾選要餐具卻仍然未給吸管，已非首次了。",
+				"isAnonymous": true,
+				"user_name": "",
+				"reviewerId": "",
+				"ratings": [
+				  {
+					"topic": "packaging",
+					"score": 5
+		
+				},
+				  {
+					"topic": "punctuality",
+					"score": 5
+				  },
+				  {
+					"topic": "restaurant_food",
+					"score": 4
+				  },
+				  {
+					"topic": "rider",
+					"score": 5
+				  }
+				],
+				"type": "user",
+				"automatedcomment": null,
+				"replies": []
+			  },
+			  {
+				"user_id": "36b30162-2080-4bb1-90ec-8175199d53e1",
+				"order_comment_score": 5,
+				"comment_time": "2021-03-31",
+				"updatedAt": "2021-03-31T00:59:18Z",
+				"comment": "點選飲料時候 選單請多加選項（加糖/不加糖） 謝謝",
+				"isAnonymous": false,
+				"user_name": "小丘",
+				"reviewerId": "twcmp4wa",
+				"ratings": [
+				  {
+					"topic": "packaging",
+					"score": 5
+		
+				},
+				  {
+					"topic": "punctuality",
+					"score": 5
+				  },
+				  {
+					"topic": "restaurant_food",
+					"score": 5
+				  },
+				  {
+					"topic": "rider",
+					"score": 5
+				  }
+				],
+				"type": "user",
+				"automatedcomment": null,
+				"replies": []
+			  },
+			  {
+				"user_id": "c923bff4-18c0-4ed2-93d2-b571d7b836a2",
+				"order_comment_score": 5,
+				"comment_time": "2021-03-30",
+				"updatedAt": "2021-03-30T05:08:15Z",
+				"comment": "包裝確實東西美味",
+				"isAnonymous": true,
+				"user_name": "",
+				"reviewerId": "",
+				"ratings": [
+				  {
+					"topic": "packaging",
+					"score": 5
+		
+				},
+				  {
+					"topic": "punctuality",
+					"score": 5
+				  },
+				  {
+					"topic": "restaurant_food",
+					"score": 5
+				  },
+				  {
+					"topic": "rider",
+					"score": 5
+				  }
+				],
+				"type": "user",
+				"automatedcomment": null,
+				"replies": []
+			  },
+			  {
+				"user_id": "af28aec1-34a1-45d9-93bb-0261613f99ea",
+				"order_comment_score": 5,
+				"comment_time": "2021-03-29",
+				"updatedAt": "2021-03-29T15:13:02Z",
+				"comment": "您好 我在點拿鐵的時候 選項裡面沒有可以選擇加糖或不加糖的選擇 ，還有我有打開要吸管的選項\n結果送來時沒有吸管，因為是幫人家代買的飲料咖啡！不好意思～謝謝您！",
+				"isAnonymous": true,
+				"user_name": "",
+				"reviewerId": "",
+				"ratings": [
+				  {
+					"topic": "packaging",
+					"score": 5
+		
+				},
+				  {
+					"topic": "punctuality",
+					"score": 5
+				  },
+				  {
+					"topic": "restaurant_food",
+					"score": 5
+				  },
+				  {
+					"topic": "rider",
+					"score": 5
+				  }
+				],
+				"type": "user",
+				"automatedcomment": null,
+				"replies": []
+			  },
+			  {
+				"user_id": "e2020b43-38ea-4e08-9a4e-c405813e2aa0",
+				"order_comment_score": 5,
+				"comment_time": "2021-03-05",
+				"updatedAt": "2021-03-05T03:41:41Z",
+				"comment": "未附奶油球和吸管\n只能倒掉很可惜",
+				"isAnonymous": false,
+				"user_name": "小姐",
+				"reviewerId": "twcye9ra",
+				"ratings": [
+				  {
+					"topic": "packaging",
+					"score": 5
+		
+				},
+				  {
+					"topic": "punctuality",
+					"score": 5
+				  },
+				  {
+					"topic": "restaurant_food",
+					"score": 3
+				  },
+				  {
+					"topic": "rider",
+					"score": 5
+				  }
+				],
+				"type": "user",
+				"automatedcomment": null,
+				"replies": []
+			  },
+			  {
+				"user_id": "d962306c-70b8-479a-98c9-f3d21eb67875",
+				"order_comment_score": 5,
+				"comment_time": "2021-02-24",
+				"updatedAt": "2021-02-24T01:24:56Z",
+				"comment": "點那提沒有奶泡，不是冷掉消掉，咖啡還是熱的但打開蓋子沒看到奶泡，有點失望",
+				"isAnonymous": true,
+				"user_name": "",
+				"reviewerId": "",
+				"ratings": [
+				  {
+					"topic": "packaging",
+					"score": 5
+		
+				},
+				  {
+					"topic": "punctuality",
+					"score": 5
+				  },
+				  {
+					"topic": "restaurant_food",
+					"score": 3
+				  },
+				  {
+					"topic": "rider",
+					"score": 5
+				  }
+				],
+				"type": "user",
+				"automatedcomment": null,
+				"replies": []
+			  },
+			  {
+				"user_id": "88e86916-04c0-42cd-8a67-4e7cb69246a0",
+				"order_comment_score": 5,
+				"comment_time": "2021-01-30",
+				"updatedAt": "2021-01-30T07:05:56Z",
+				"comment": "抹茶超好喝👍",
+				"isAnonymous": true,
+				"user_name": "",
+				"reviewerId": "",
+				"ratings": [
+				  {
+					"topic": "packaging",
+					"score": 5
+		
+				},
+				  {
+					"topic": "punctuality",
+					"score": 5
+				  },
+				  {
+					"topic": "restaurant_food",
+					"score": 5
+				  },
+				  {
+					"topic": "rider",
+					"score": 5
+				  }
+				],
+				"type": "user",
+				"automatedcomment": null,
+				"replies": []
+			  },
+			  {
+				"user_id": "5646f0a3-3054-4169-8a51-1a887f8e0bb8",
+				"order_comment_score": 5,
+				"comment_time": "2021-01-26",
+				"updatedAt": "2021-01-26T04:46:25Z",
+				"comment": "優質店家",
+				"isAnonymous": true,
+				"user_name": "",
+				"reviewerId": "",
+				"ratings": [
+				  {
+					"topic": "packaging",
+					"score": 5
+		
+				},
+				  {
+					"topic": "punctuality",
+					"score": 5
+				  },
+				  {
+					"topic": "restaurant_food",
+					"score": 5
+				  },
+				  {
+					"topic": "rider",
+					"score": 5
+				  }
+				],
+				"type": "user",
+				"automatedcomment": null,
+				"replies": []
+			  }
+			,{
+				"user_name": "一洲風月",
+				"ship_score": 0,
+				"ship_time": 0,
+				"comment": "雖然配送師傅遲到了有一會兒，但是態度非常好，一直說對不起，都是打工的，我非常體諒配送師傅的心情！謝謝師傅～",
+				"comment_type": 4,
+				"order_time": 1507964827,
+				"comment_time": 1507964827,
+				"order_comment_score": 5,
+				"praise_food_tip": "脆薯餅",
+				"critic_food_tip": "",
+				"poi_reply_contents": "",
+				"wm_comment_id": 1281862411,
+				"user_id": 170303774,
+				"user_poi_comment_num": 1,
+				"add_comment_list": [],
+				"comment_labels": [],
+				"order_type": 1,
+				"delivery_type": 0,
+				"delivery_name": "",
+				"comment_pics": [],
+				"user_pic_url": "https://img.meituan.net/avatar/28799a8c9e206fb7b54f321dd814712594813.jpg.webp",
+				"food_comment_score": 0,
+				"delivery_comment_score": 0,
+				"has_add_comment": false,
+				"is_picture_audited": false,
+				"picture_msg": null,
+				"picture_msg_title": null,
+				"picture_msg_url": null,
+				"poi_name": null,
+				"poi_id": null,
+				"comment_source_tip": "",
+				"comment_source_type": 3,
+				"order_detail": null,
+				"praise_food_list": [
+					{
+						"name": "脆薯餅",
+						"schema_uri": "meituanwaimai://waimai.meituan.com/detail?buztype=0&spuid=216588956&wmpoiid=495579&sputag=&activitytag=&sku_id=235150236"
+					}
+				],
+				"comment_scheme": [],
+				"is_anonymous": 0,
+				"quality_score": 0,
+				"pack_score": 0,
+				"buz_code": 0,
+				"can_additional": 1,
+				"disable_additional_msg": "",
+				"poi_pic_url": null,
+				"order_view_id": null,
+				"dp_order_view_id": null,
+				"high_quality": 0,
+				"is_dp": 0,
+				"share_info": null,
+				"user_type": 0
+			}
+		],
+		"labels": [
+			{
+				"label_id": 75,
+				"content": "味道贊",
+				"label_count": 45,
+				"label_star": 5
+			}, {
+				"label_id": 39,
+				"content": "服務好",
+				"label_count": 20,
+				"label_star": 5
+			}, {
+				"label_id": 34,
+				"content": "滿意",
+				"label_count": 11,
+				"label_star": 5
+			}, {
+				"label_id": 38,
+				"content": "少送錯送",
+				"label_count": 5,
+				"label_star": 0
+			}, {
+				"label_id": 62,
+				"content": "貴",
+				"label_count": 4,
+				"label_star": 0
+			}, {
+				"label_id": 80,
+				"content": "早餐",
+				"label_count": 3,
+				"label_star": 5
+			}
+		],
+		"comment_categories": [],
+		"buz_code": 0,
+		"comment_praise_ratio": 90,
+		"has_more": false,
+		"friend_status_banner": {
+			"friend_status": 2,
+			"friend_status_tip": "",
+			"bind_schema": ""
+		},
+		"scores": {
+			"comment_score": 4.7,
+			"delivery_score": 4.8,
+			"quality_score": 4.6,
+			"pack_score": 4.7,
+			"show": 1
+		},
+		"comment_tip": "",
+		"tab": [
+			{
+				"comment_score_type": 0,
+				"total_count": 31,
+				"comment_score_title": "全部"
+			}, {
+				"comment_score_type": 5,
+				"total_count": 50,
+				"comment_score_title": "有圖"
+			}
+		],
+		"comments_dp": {
+			"show": 1,
+			"wm_poi_id": 495579,
+			"dp_poi_id": 4587058,
+			"title": "點評",
+			"comment_score": 3.5,
+			"total_count_desc": "51條評價",
+			"comments": []
+		}
+	},
+	"code": 0,
+	"msg": "成功"
+}

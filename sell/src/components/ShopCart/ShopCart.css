@@ -20,14 +20,14 @@
 	background: #666666;
 	border-radius: 50%;
 	position: relative;
-	top: -34px;
+	top: -22px;
 	left: 20px;
 	text-align: center;
 	float: left;
     /* 內有兩個框框 */
 }
 .shopcart-wrapper .content-left .logo-wrapper.highlight{
-    background-color: gold;
+    background-color: rgb(250, 227, 95);
 }
 .shopcart-wrapper .content-left .logo-wrapper .num{
     /* 購物車被選取的樣式 */
@@ -81,7 +81,7 @@
 	font-weight: bold;
 } 
 .shopcart-wrapper .content-right.highlight{
-    background-color: gold;
+    background-color: rgb(250, 227, 95);
     color:black
 }
 
@@ -137,7 +137,7 @@
 }
 
 .shopcart-wrapper .shopcart-list .list-content{
-	max-height: 360px;
+	max-height: 400px;
 	overflow: hidden;
 	background: white;
     /* width: 100%; */
@@ -160,6 +160,7 @@
 	float: left;
 	width: 130px;
 }
+
 .shopcart-wrapper .shopcart-list .list-content .food-item .desc-wrapper .desc-left .name{
 	font-size: 16px;
 	margin-bottom: 8px;

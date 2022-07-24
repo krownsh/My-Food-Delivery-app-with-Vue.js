@@ -40,7 +40,7 @@ export default {
     var that = this;
     // 發請異步請求，以獲取數據
     // Make a request for a user with a given ID
-this.$axios.get('/static/01-商品页(点菜).json')
+this.$axios.get('/static/星巴克(店家菜單).json')
 // this.$axios.get('/api/goods')
   .then(function (response) {
     // handle success
@@ -57,7 +57,7 @@ this.$axios.get('/static/01-商品页(点菜).json')
 
 
   // 獲取評價的數據(兩種方式都可以獲取)
-  this.$axios.get('/api/ratings')
+  this.$axios.get('/static/星巴克(店家評價).json')
 // this.$axios.get('/api/goods')
   .then(function (response) {
     // handle success

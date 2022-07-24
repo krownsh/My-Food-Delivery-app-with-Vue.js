@@ -7,27 +7,9 @@
                     <p class="score">{{ratings.comment_score}}</p>
                     <p class="text">店家評分</p>
                 </div>
-                <div class="other-score">
-                    <div class="quality-score item">
-                        <span class="text">口味</span>
-                        <Star :score='ratings.quality_score' class='star'></Star>
-                        <span class="score">{{ratings.quality_score}}</span>
-                    </div>
-                    <div class="pack-score item">
-                        <span class="text">包裝</span>
-                        <Star :score='ratings.pack_score' class='star'></Star>
-                        <span class="score">{{ratings.pack_score}}</span>
-                    </div>
-
-                </div>
-            </div>
-            <div class="overview-right">
-                <div class="delivery-score">
-                    <p class="score">{{ratings.delivery_score}}</p>
-                    <p class="text">配送評分</p>
-                </div>
 
             </div>
+
 
         </div>
         <Split></Split>
@@ -41,18 +23,6 @@
             <span class="item" @click="selectTypeFn(1)" :class="{'active':selectType==1}">
                 {{ratings.tab[1].comment_score_title}}
             </span>
-            <span class="item" @click="selectTypeFn(0)" :class="{'active':selectType==0}">
-                <img src="./icon_sub_tab_dp_normal@2x.png" v-show="selectType!=0" />
-                <!--                                       選中的樣式 -->
-                <img src="./icon_sub_tab_dp_highlighted@2x.png" v-show="selectType==0" />
-                {{ratings.tab[2].comment_score_title}}
-            </span>
-            </div>
-            <div class="labels-view">
-                <span v-for="item in ratings.labels" class="item" :class="{'highligh':item.label_star>0}">
-                <!--                                                      依照他的評分來增加樣式 -->
-                    {{item.content}}{{item.label_count}}
-                </span>
             </div>
 				<ul class="rating-list">
 					<li v-for="comment in selectComments" class="comment-item">
@@ -66,7 +36,9 @@
 							</div>
 							<div class="time">
                             <!-- 他是用時間撮記所以要轉換 -->
-								{{fotmatDate(comment.comment_time)}}
+								{{comment.comment_time}}
+                                <!-- {{fotmatDate(comment.comment_time)}} -->
+
 							</div>
 							<div class="star-wrapper">
 								<span class="text">評分</span>
@@ -74,7 +46,9 @@
 							</div>
 							<div class="c_content" v-html="commentStr(comment.comment)"></div>
                             <!--                這邊不能直接寫在<div>commentStr(comment.comment)<div>，因為我們裡面是有包html，他會直接顯示html ，要用v-html方法-->
-							<div class="img-wrapper" v-if="comment.comment_pics.length">
+							<div class="img-wrapper" v-if="comment.comment_pics">
+                            <!-- <div class="img-wrapper" v-if="comment.comment_pics.length"> -->
+
                             <!--                                                有長度才代表有圖片，才要進行渲染 -->
 								<img v-for="item in comment.comment_pics" :src="item.thumbnail_url" />
 							</div>
@@ -114,7 +88,7 @@ export default{
     created(){
         // 一開啟就獲取數據
         let that = this;
-   this.$axios.get('/api/ratings')
+   this.$axios.get('/static/星巴克(店家評價).json')
   .then(function (response) {
     // handle success
     var dataSource = response.data;
@@ -199,7 +173,9 @@ export default{
             let arr = [];
             // 圖片部分是陣列，所以要用數組，把他一個一個抓出來
             this.ratings.comments.forEach((comment) => {
-                if(comment.comment_pics.length) {
+                if(comment.comment_pics) {
+                // if(comment.comment_pics.length) {
+
                     // 有長度的就代表有東西
                     arr.push(comment);
                 }

@@ -22,7 +22,7 @@
 	width: 26px;
 	height: 26px;
 	font-size: 26px;
-	color: gold
+	color: rgb(247, 212, 19)
 }
 .cartcontrol .cart-add::after{
     /* bug找不到，目前不影響可刪 */

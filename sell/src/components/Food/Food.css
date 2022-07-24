@@ -24,7 +24,7 @@
 	
 	/* 利用padding-top/bottom 100%的方式，拉出他會有的空間，圖片再用絕對定位丟回去
 	 */
-	padding-top: 100%;
+	padding-top: 90%;
 }
 .food .food-wrapper .food-content .img-wrapper .food-img{
 	position: absolute;

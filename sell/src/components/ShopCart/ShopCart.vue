@@ -42,9 +42,8 @@
                 <li class="food-item" v-for="food in selectFoods">
                     <div class="desc-wrapper">
                         <div class="desc-left">
+
                             <p class="name" >{{food.name}}</p>
-                            <p class="unit" v-show="!food.description">{{food.unit}}</p>
-                            <!-- 有描述時則不顯示單位    可刪除 -->
                             <p class="description" v-show="food.description">{{food.description}}</p>
                         </div>
                         <div class="desc-right">

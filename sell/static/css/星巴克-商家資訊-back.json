@@ -1,0 +1,377 @@
+{
+    "payment_methods": [
+      {
+        "id": 1,
+        "name": "線上付款",
+        "description": "",
+        "payment_type_code": "credit_card",
+        "translation_key": "NEXTGEN_PAYMENT_SELECTION_CREDIT_CARD",
+        "is_online_payment_method": true,
+        "payment_fee": {
+          "amount": 0,
+          "is_enabled": false
+        },
+        "subtype_code": null
+      },
+      {
+        "id": 2,
+        "name": "貨到付款",
+        "description": "",
+        "payment_type_code": "payment_on_delivery",
+        "translation_key": "NEXTGEN_PAYMENT_SELECTION_PAYMENT_ON_DELIVERY",
+        "is_online_payment_method": false,
+        "payment_fee": {
+          "amount": 0,
+          "is_enabled": false
+        },
+        "subtype_code": null
+      },
+      {
+        "id": 4,
+        "name": "月結",
+        "description": "",
+        "payment_type_code": "invoice",
+        "translation_key": "NEXTGEN_PAYMENT_SELECTION_INVOICE",
+        "is_online_payment_method": true,
+        "payment_fee": {
+          "amount": 0,
+          "is_enabled": false
+        },
+        "subtype_code": null
+      },
+      {
+        "id": 26,
+        "name": "線上付款cybs",
+        "description": "",
+        "payment_type_code": "cybersource_creditcard",
+        "translation_key": "NEXTGEN_PAYMENT_SELECTION_CYBERSOURCE_CREDITCARD",
+        "is_online_payment_method": true,
+        "payment_fee": {
+          "amount": 0,
+          "is_enabled": false
+        },
+        "subtype_code": null
+      },
+      {
+        "id": 14,
+        "name": "Apple Pay",
+        "description": "",
+        "payment_type_code": "applepay",
+        "translation_key": "NEXTGEN_PAYMENT_SELECTION_APPLEPAY",
+        "is_online_payment_method": true,
+        "payment_fee": {
+          "amount": 0,
+          "is_enabled": false
+        },
+        "subtype_code": null
+      },
+      {
+        "id": 5,
+        "name": "Balance",
+        "description": "",
+        "payment_type_code": "balance",
+        "translation_key": "NEXTGEN_PAYMENT_SELECTION_BALANCE",
+        "is_online_payment_method": true,
+        "payment_fee": {
+          "amount": 0,
+          "is_enabled": false
+        },
+        "subtype_code": null
+      },
+      {
+        "id": 41,
+        "name": "Apple Pay by Cybersource",
+        "description": "",
+        "payment_type_code": "cybersource_applepay",
+        "translation_key": "NEXTGEN_PAYMENT_SELECTION_CYBERSOURCE_APPLEPAY",
+        "is_online_payment_method": true,
+        "payment_fee": {
+          "amount": 0,
+          "is_enabled": false
+        },
+        "subtype_code": null
+      },
+      {
+        "id": 58,
+        "name": "LINE Pay",
+        "description": "",
+        "payment_type_code": "line_pay",
+        "translation_key": "NEXTGEN_PAYMENT_SELECTION_LINE_PAY",
+        "is_online_payment_method": true,
+        "payment_fee": {
+          "amount": 0,
+          "is_enabled": false
+        },
+        "subtype_code": null
+      }
+    ],
+    "vendor_schedules": [
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "delivering",
+        "opening_time": "07:00",
+        "closing_time": "21:00"
+      },
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "pickup",
+        "opening_time": "07:00",
+        "closing_time": "21:00"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "delivering",
+        "opening_time": "07:00",
+        "closing_time": "21:00"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "pickup",
+        "opening_time": "07:00",
+        "closing_time": "21:00"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "delivering",
+        "opening_time": "07:00",
+        "closing_time": "21:00"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "pickup",
+        "opening_time": "07:00",
+        "closing_time": "21:00"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "delivering",
+        "opening_time": "07:00",
+        "closing_time": "21:00"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "pickup",
+        "opening_time": "07:00",
+        "closing_time": "21:00"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "delivering",
+        "opening_time": "07:00",
+        "closing_time": "21:00"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "pickup",
+        "opening_time": "07:00",
+        "closing_time": "21:00"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "delivering",
+        "opening_time": "07:00",
+        "closing_time": "21:00"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "pickup",
+        "opening_time": "07:00",
+        "closing_time": "21:00"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "delivering",
+        "opening_time": "07:00",
+        "closing_time": "21:00"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "pickup",
+        "opening_time": "07:00",
+        "closing_time": "21:00"
+      }
+    ],
+    "schedules": [
+      {
+        "id": 0,
+        "weekdays": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "opening_types": [
+          "pickup",
+          "delivering"
+        ],
+        "time_slot": [
+          {
+            "opening_time": "07:00",
+            "closing_time": "21:00"
+          }
+        ]
+      }
+    ],
+    "special_days": [
+      {
+        "date": "2022-01-30",
+        "opening_type": "delivering",
+        "opening_time": "07:00",
+        "closing_time": "22:00"
+      },
+      {
+        "date": "2022-01-30",
+        "opening_type": "pickup",
+        "opening_time": "07:00",
+        "closing_time": "22:00"
+      },
+      {
+        "date": "2022-02-03",
+        "opening_type": "delivering",
+        "opening_time": "07:00",
+        "closing_time": "22:00"
+      },
+      {
+        "date": "2022-02-03",
+        "opening_type": "pickup",
+        "opening_time": "07:00",
+        "closing_time": "22:00"
+      },
+      {
+        "date": "2022-07-26",
+        "opening_type": "delivering",
+        "opening_time": "14:00",
+        "closing_time": "21:00"
+      },
+      {
+        "date": "2022-07-26",
+        "opening_type": "delivering",
+        "opening_time": "07:00",
+        "closing_time": "13:15"
+      },
+      {
+        "date": "2022-07-26",
+        "opening_type": "pickup",
+        "opening_time": "14:00",
+        "closing_time": "21:00"
+      },
+      {
+        "date": "2022-07-26",
+        "opening_type": "pickup",
+        "opening_time": "07:00",
+        "closing_time": "13:15"
+      },
+      {
+        "date": "2022-01-29",
+        "opening_type": "pickup",
+        "opening_time": "07:00",
+        "closing_time": "22:00"
+      },
+      {
+        "date": "2022-01-29",
+        "opening_type": "delivering",
+        "opening_time": "07:00",
+        "closing_time": "22:00"
+      },
+      {
+        "date": "2022-01-31",
+        "opening_type": "pickup",
+        "opening_time": "07:00",
+        "closing_time": "17:00"
+      },
+      {
+        "date": "2022-01-31",
+        "opening_type": "delivering",
+        "opening_time": "07:00",
+        "closing_time": "17:00"
+      },
+      {
+        "date": "2022-02-02",
+        "opening_type": "delivering",
+        "opening_time": "07:00",
+        "closing_time": "22:00"
+      },
+      {
+        "date": "2022-02-02",
+        "opening_type": "pickup",
+        "opening_time": "07:00",
+        "closing_time": "22:00"
+      },
+      {
+        "date": "2022-02-01",
+        "opening_type": "delivering",
+        "opening_time": "07:00",
+        "closing_time": "22:00"
+      },
+      {
+        "date": "2022-02-01",
+        "opening_type": "pickup",
+        "opening_time": "07:00",
+        "closing_time": "22:00"
+      },
+      {
+        "date": "2022-02-04",
+        "opening_type": "delivering",
+        "opening_time": "07:00",
+        "closing_time": "22:00"
+      },
+      {
+        "date": "2022-02-04",
+        "opening_type": "pickup",
+        "opening_time": "07:00",
+        "closing_time": "22:00"
+      },
+      {
+        "date": "2022-02-05",
+        "opening_type": "delivering",
+        "opening_time": "07:00",
+        "closing_time": "22:00"
+      },
+      {
+        "date": "2022-02-05",
+        "opening_type": "pickup",
+        "opening_time": "07:00",
+        "closing_time": "22:00"
+      },
+      {
+        "date": "2022-02-06",
+        "opening_type": "delivering",
+        "opening_time": "07:00",
+        "closing_time": "22:00"
+      },
+      {
+        "date": "2022-02-06",
+        "opening_type": "pickup",
+        "opening_time": "07:00",
+        "closing_time": "22:00"
+      }
+    ],
+    "has_online_payment": true,
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-tw/LH/u6gc-listing.jpg",
+    "review_number": 1056,
+    "address": "(X)台中市北屯區軍功路一段720號",
+    "rating": 4.8,
+    "description": "食品業者登錄字號：B-116097091-00242-0",
+    "vertical": "restaurants",
+    "name": "STARBUCKS 星巴克 (軍功東山門市)",
+    "latitude": 24.1742271,
+    "longitude": 120.7192038,
+    "is_super_vendor": false
+  }

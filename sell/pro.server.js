@@ -13,39 +13,38 @@ app.use(router);
 
 
 
-// 接口数据
-// 1、读取json数据
-var goods = require('./data/01-商品页(点菜).json');
-var ratings = require('./data/02-商品页(评价).json');
-var seller = require('./data/03-商品页(商家).json');
+// 獲取數據
+var goods = require('./data/星巴克(店家菜單).json');
+var ratings = require('./data/星巴克(店家評價).json');
+var seller = require('./data/星巴克(店家資訊).json');
 
 // 2、路由
 var routes = express.Router();
 
-// 3、编写接口
+// 3、街口
 routes.get('/goods', (req,res) => {
-	// 返回数据给客户端，返回json数据
+	// 返回json
 	res.json(goods);
 });
 routes.get('/ratings', (req,res) => {
-	// 返回数据给客户端，返回json数据
+	// 返回json
 	res.json(ratings);
 });
 
 routes.get('/seller', (req,res) => {
-	// 返回数据给客户端，返回json数据
+	// 返回json
 	res.json(seller);
 });
 
-// 4、中间件
+// 4、
 app.use('/api',routes);
 
 
-// 定义static目录，指向./dist目录
+// 定義static目錄，指向./dist目錄
 app.use(express.static('./dist'));
 
 
-// 启动express
+// 啟動express
 module.express = app.listen(port, function(err){
 	if(err){
 		console.log(err);

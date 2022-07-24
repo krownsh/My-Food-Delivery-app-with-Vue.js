@@ -22,7 +22,7 @@
       <i class="line"></i>
     </router-link>
     <router-link to="/seller" class="nav-item"
-      >店家
+      >店家資訊
       <i class="line"></i>
     </router-link>
   </div>
